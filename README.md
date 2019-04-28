@@ -26,6 +26,12 @@ RETURN row
 ```
 ## Exercise 2 
 
+MATCH(t:Tweet{}),
+SET t.mentions = [];
+
+MATCH(e:Tweet), 
+SET e.tweetContent = REPLACE(e.tweetContent, "@ ", "@" ),
+RETURN e;
 
 
 ## Exercise 3 
