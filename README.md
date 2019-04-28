@@ -25,7 +25,7 @@ LOAD CSV WITH HEADERS FROM "file:///some2016UKgeotweets.csv" AS row
 RETURN row
 ```
 ## Exercise 2 
-\_(ツ)_/ Not sure on this solution.
+Not sure on this solution.
 
 MATCH(t:Tweet{}) SET t.mentions = [];
 
