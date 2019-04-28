@@ -29,3 +29,4 @@ RETURN row
 
 
 ## Exercise 3 
+The question here seems quite unclear, not sure what kind of result we're being asked for. 
